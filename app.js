@@ -6,6 +6,7 @@ let msg=document.querySelector("#msg");
 let turnO = true;
 
 gsap.from("h1",{
+    y:-30,
     opacity:0,
     duration:1,
     delay:1
@@ -16,6 +17,20 @@ gsap.from(".game",{
     duration:1,
     stagger:0.3
 })
+
+gsap.from("#reset",{
+    opacity:0,
+    duration:1,
+    delay:1
+})
+
+gsap.from("#new-btn",{
+    opacity:0,
+    duration:1,
+    delay:1
+})
+
+
 
 const winPatterns=[
     [0,1,2],
