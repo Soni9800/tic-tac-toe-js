@@ -5,6 +5,11 @@ let result=document.querySelector(".res");
 let msg=document.querySelector("#msg");
 let turnO = true;
 
+gsap.from("h1",{
+    opacity:0,
+    duration:1,
+    delay:1
+})
 
 gsap.from(".game",{
     opacity:0,
