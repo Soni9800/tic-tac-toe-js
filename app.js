@@ -15,7 +15,7 @@ gsap.from("h1",{
 gsap.from(".game",{
     opacity:0,
     duration:1,
-    stagger:0.3
+    stagger:0.7
 })
 
 gsap.from("#reset",{
