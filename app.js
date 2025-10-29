@@ -5,11 +5,11 @@ let result=document.querySelector(".res");
 let msg=document.querySelector("#msg");
 let turnO = true;
 
-gsap.from(".box",{
-    duration:1,
+gsap.to("h1",{
+    y:-30,
     opacity:0,
-    stagger:0.3,
-    delay:0.2
+    duration:1,
+    delay:1
 })
 
 const winPatterns=[
