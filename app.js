@@ -5,7 +5,10 @@ let result=document.querySelector(".res");
 let msg=document.querySelector("#msg");
 let turnO = true;
 
-
+gsap.to("#game",{
+    duration:1,
+    stagger:0.3
+})
 
 const winPatterns=[
     [0,1,2],
