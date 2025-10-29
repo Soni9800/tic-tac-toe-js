@@ -5,11 +5,17 @@ let result=document.querySelector(".res");
 let msg=document.querySelector("#msg");
 let turnO = true;
 
-gsap.to("h1",{
-    y:-30,
+gsap.from("h1",{
+    y:30,
     opacity:0,
     duration:1,
     delay:1
+})
+
+gsap.from(".game",{
+    opacity:0,
+    duration:1,
+    stagger:0.3
 })
 
 const winPatterns=[
