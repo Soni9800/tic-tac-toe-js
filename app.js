@@ -5,8 +5,9 @@ let result=document.querySelector(".res");
 let msg=document.querySelector("#msg");
 let turnO = true;
 
-gsap.to("#game",{
+gsap.from("#container #game",{
     duration:1,
+    opacity:0,
     stagger:0.3
 })
 
