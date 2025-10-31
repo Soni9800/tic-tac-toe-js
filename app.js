@@ -8,14 +8,13 @@ let turnO = true;
 gsap.from("h1",{
     y:-30,
     opacity:0,
-    duration:1,
-    delay:1
+    duration:1
 })
 
 gsap.from(".game",{
     opacity:0,
     duration:1,
-    stagger:0.7
+    stagger:0.9
 })
 
 gsap.from("#reset",{
